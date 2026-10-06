@@ -1,4 +1,3 @@
-````markdown
 # PalmWise Advanced
 
 ## Intelligent Decision Support and Sustainability Incentive Platform for Farmers
