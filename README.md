@@ -1,45 +1,51 @@
+````markdown
 # PalmWise Advanced
 
 ## Intelligent Decision Support and Sustainability Incentive Platform for Farmers
 
 PalmWise Advanced is a full-stack web application developed to help farmers identify and apply for suitable government agricultural schemes based on their crop, land area, and state.
 
-The system provides a simple farmer interface for viewing eligible schemes, understanding eligibility conditions, submitting applications, and tracking application status. It also includes an officer interface for managing schemes, reviewing applications, and handling outreach tasks.
+The platform provides a farmer portal for profile management, scheme eligibility, applications, and status tracking, along with an officer portal for scheme management, application review, and outreach task management.
 
 ## Key Features
 
-- Farmer registration and profile management
+- Farmer registration and login
+- Farmer profile management
 - Rule-based scheme eligibility evaluation
 - Eligibility based on crop, land area, and state
 - Display of eligible government schemes
 - Detailed eligibility information
 - Online scheme application
 - Application status tracking
-- Officer dashboard and scheme management
-- Farmer application review by officers
+- Officer dashboard
+- Government scheme management
+- Farmer application review
 - Outreach task management
 - Tamil and English language support
 
 ## Technology Stack
 
-**Frontend**
+### Frontend
 - React.js
 - Vite
-- HTML, CSS, JavaScript
+- HTML
+- CSS
+- JavaScript
 
-**Backend**
+### Backend
 - Java 17
 - Spring Boot
 - Spring Data JDBC
 - REST APIs
 - Maven
 
-**Database**
+### Database
 - MySQL
 
-**Tools**
+### Tools
 - Visual Studio Code
-- Git and GitHub
+- Git
+- GitHub
 - Postman
 - MySQL Workbench
 
@@ -70,7 +76,7 @@ MySQL Database
 
 ## Eligibility Engine
 
-The core eligibility system uses an interface-based rule design.
+The eligibility system uses an interface-based rule design:
 
 ```text
 EligibilityRule
@@ -82,7 +88,7 @@ EligibilityRule
       +-- StateEligibilityRule
 ```
 
-The farmer's profile is evaluated against these rules to determine which schemes are applicable. This approach also makes it easier to add new eligibility rules in the future.
+The farmer's profile is evaluated against these rules to determine the schemes for which the farmer is eligible. The rule-based design also allows additional eligibility conditions to be added in the future.
 
 ## Java Concepts Applied
 
@@ -98,11 +104,7 @@ The project demonstrates practical implementation of:
 * Stream API
 * JDBC and Repository-based data access
 
-## My Contribution
-
-Developed the core application including the Spring Boot backend, REST APIs, eligibility rule engine, MySQL database integration, farmer and officer workflows, and frontend-backend integration.
-
-## Project Workflow
+## Application Workflow
 
 ```text
 Farmer Profile
@@ -123,12 +125,36 @@ Officer Review
 Application Status
 ```
 
-## Academic Project
+## My Contribution
 
-**Department of Computer Science and Engineering**
-**Chennai Institute of Technology, Chennai**
+Developed the core application including the Spring Boot backend, REST APIs, eligibility rule engine, MySQL database integration, farmer and officer workflows, and frontend-backend integration.
 
-**Developer:** Varun B
+## Project Structure
+
+```text
+PalmWise_Advanced/
+|
++-- frontend/
+|   +-- src/
+|   +-- public/
+|
++-- src/
+|   +-- main/
+|   |   +-- java/
+|   |       +-- controller/
+|   |       +-- model/
+|   |       +-- repository/
+|   |       +-- rules/
+|   |       +-- service/
+|   |
+|   +-- test/
+|
++-- pom.xml
++-- mvnw
++-- mvnw.cmd
++-- test.http
++-- README.md
+```
 
 ## Future Enhancements
 
@@ -137,5 +163,14 @@ Application Status
 * Mobile application
 * Government API integration
 * SMS and notification services
-* 
-* Advanced analytic
+* Advanced analytics
+
+## Academic Project
+
+**Department of Computer Science and Engineering**
+**Chennai Institute of Technology, Chennai**
+
+**Developer:** Varun B
+
+```
+```
