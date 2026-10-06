@@ -1,4 +1,3 @@
-````markdown
 # PalmWise Advanced
 
 ## Intelligent Decision Support and Sustainability Incentive Platform for Farmers
@@ -142,5 +141,5 @@ Application Status
 
 ```
 
-This strikes a good balance for your repository: **professional, technically informative, and not so long that faculty has to read a full project report to understand it.**
-```
+This strikes a good balance for your repository: **professional, technically informative, and not so long that faculty has to readunderstand it.**
+`
