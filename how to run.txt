@@ -1,0 +1,9 @@
+Terminal 1
+PS C:\Users\varun\IdeaProjects\PalmWise_Advanced_Executive_UI\PalmWise_Advanced_backup> .\mvnw.cmd spring-boot:run
+
+Terminal 2:
+PS C:\Users\varun\IdeaProjects\PalmWise_Advanced_Executive_UI\PalmWise_Advanced_backup\frontend> npm install
+PS C:\Users\varun\IdeaProjects\PalmWise_Advanced_Executive_UI\PalmWise_Advanced_backup\frontend> npm run dev
+
+Open :  http://localhost:5173/
+
