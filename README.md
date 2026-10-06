@@ -137,9 +137,5 @@ Application Status
 * Mobile application
 * Government API integration
 * SMS and notification services
-* Advanced analytics
-
-```
-
-This strikes a good balance for your repository: **professional, technically informative, and not so long that faculty has to readunderstand it.**
-`
+* 
+* Advanced analytic
